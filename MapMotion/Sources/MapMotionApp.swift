@@ -10,8 +10,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         FirebaseApp.configure()
         
         // Initialize Google Maps
-        GMSServices.provideAPIKey("AIzaSyCSg9CzJzBCM9TBFPutyls-8NDHb-gePRA")
-
+        if let apiKey = Bundle.main.object(forInfoDictionaryKey: "GoogleMapsAPIKey") as? String {
+            GMSServices.provideAPIKey(apiKey)
+        } else {
+            fatalError("Google Maps API Key is missing! Check Info.plist")
+        }
+        
         return true
     }
 }

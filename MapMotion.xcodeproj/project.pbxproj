@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25E29552EC852EFD59C78BFF /* MapMotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65729DF5F955C893C7A892C /* MapMotionApp.swift */; };
+		61A6BB4F2D788D720016246C /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 61A6BB4E2D788D720016246C /* Secrets.xcconfig */; };
 		61C9D4892D763E1300357E45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61C9D4882D763E1300357E45 /* GoogleService-Info.plist */; };
 		6B5B962D2ABDBCBE5AB11829 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F5FB80CA21412AA2D0882B /* MapViewModel.swift */; };
 		8322177F03A080AC778AA78E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20891FD5A61FC5EE6EB432A7 /* Preview Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		37F5FB80CA21412AA2D0882B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		512D12D2680C4C5E3A78E16F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5B59501564DD0503D6148729 /* Pods-MapMotionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMotionTests.release.xcconfig"; path = "Target Support Files/Pods-MapMotionTests/Pods-MapMotionTests.release.xcconfig"; sourceTree = "<group>"; };
+		61A6BB4E2D788D720016246C /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		61C9D4882D763E1300357E45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6B5ED5C3B4CFAE3925C59DDB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		82A5C70047A092C530EC1D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,6 +149,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		61A6BB502D788E050016246C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				61A6BB4E2D788D720016246C /* Secrets.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		6A6B0D8C536CA3A0CEEFC93E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +186,7 @@
 		C3923AC56949A272446A7A4A /* MapMotion */ = {
 			isa = PBXGroup;
 			children = (
+				61A6BB502D788E050016246C /* Configuration */,
 				82A5C70047A092C530EC1D4A /* Assets.xcassets */,
 				61C9D4882D763E1300357E45 /* GoogleService-Info.plist */,
 				DE6C91B63B52B69E3BDFA3CE /* Info.plist */,
@@ -315,6 +326,7 @@
 				D461E5A519D8FEA51EF220CB /* Assets.xcassets in Resources */,
 				8322177F03A080AC778AA78E /* Preview Assets.xcassets in Resources */,
 				61C9D4892D763E1300357E45 /* GoogleService-Info.plist in Resources */,
+				61A6BB4F2D788D720016246C /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
